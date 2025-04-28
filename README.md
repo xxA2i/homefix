@@ -30,7 +30,7 @@ Android application for finding, hiring, and adding home service professionals s
 
 | Main | Search | Profile |
 |:----:|:------:|:-------:|
-| ![](screenshots/main.png) | ![](screenshots/search.png) | ![](screenshots/profile.png) |
+| ![](screenshots/main.png) | ![](screenshots/search.png) | ![](screenshots/PROFILE.png) |
 
 | Add Master | Categories | Category Details |
 |:----------:|:----------:|:----------------:|
