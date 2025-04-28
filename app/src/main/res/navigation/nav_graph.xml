@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.homefix.HomeFragment"
+        android:label="Главная">
+        <action
+            android:id="@+id/action_homeFragment_to_industryFragment"
+            app:destination="@id/industryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add_master"
+        android:name="com.example.homefix.AddMasterFragment"
+        android:label="Добавить мастера" />
+
+    <fragment
+        android:id="@+id/industryFragment"
+        android:name="com.example.homefix.IndustryFragment"
+        android:label="Отрасль" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.homefix.SearchFragment"
+        android:label="Поиск" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.homefix.ProfileFragment"
+        android:label="Профиль" />
+</navigation>

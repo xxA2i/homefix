@@ -1,0 +1,46 @@
+<resources>
+    <string-array name="repair_industries">
+        <item>Сантехника</item>
+        <item>Электрика</item>
+        <item>Отделочные работы</item>
+        <item>Мебель</item>
+        <item>Бытовая техника</item>
+        <item>Строительство</item>
+        <item>Ремонт техники</item>
+    </string-array>
+
+    <string name="app_name">homefix</string>
+    <string name="exit">Выйти</string>
+    <string name="your_profile">Ваш профиль</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="start_search">Начать поиск</string>
+    <string name="fast_search">Быстрый подбор мастера</string>
+    <string name="find_master">Найдите мастера для ремонта</string>
+    <string name="searching">Поиск мастеров…</string>
+    <string name="main">Главная</string>
+    <string name="search">Поиск</string>
+    <string name="profile">Профиль</string>
+    <string name="master_photo">Фото мастера</string>
+    <string name="about_master">О мастере</string>
+    <string name="cancel">Назад</string>
+    <string name="hire">Нанять</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="Auth">Войти</string>
+    <string name="Registration">Регистрация</string>
+    <string name="dep_money">Пополнить баланс</string>
+    <string name="Done">Подтвердить</string>
+    <string name="_1000">1000 ₽</string>
+    <string name="_500">500 ₽</string>
+    <string name="_100">100 ₽</string>
+    <string name="sum">Сумма</string>
+    <string name="balance">Пополнение баланса</string>
+    <string name="add_m">Добавить мастера</string>
+    <string name="about">Описание</string>
+    <string name="min_val">"Цена в час"</string>
+    <string name="rate">Рейтинг (0.0-5.0)</string>
+    <string name="name_m">Имя мастера</string>
+    <string name="who_chck">Отрасль не выбрана</string>
+    <string name="go_who">Выбрать отрасль</string>
+    <string name="master_null">Мастеров не найдено</string>
+</resources>

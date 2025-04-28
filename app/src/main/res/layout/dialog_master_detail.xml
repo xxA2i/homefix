@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_master_default"
+        android:contentDescription="@string/master_photo"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/master_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:textColor="@color/dark_yellow"/>
+
+    <TextView
+        android:id="@+id/master_detail_specialty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:textColor="@color/primary_yellow"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <RatingBar
+            android:id="@+id/master_detail_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:rating="4.5"
+            android:isIndicator="true"
+            android:theme="@style/RatingBar"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/master_detail_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/secondary_yellow"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/master_detail_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/secondary_yellow"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_yellow"
+        android:layout_marginVertical="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_master"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/dark_yellow"/>
+
+    <TextView
+        android:id="@+id/master_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/primary_yellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:fontFamily="@font/montserrat_medium"
+            android:backgroundTint="#F5F5F5"
+            android:textColor="#212121"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/hire_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/hire"
+            android:fontFamily="@font/montserrat_medium"
+            android:backgroundTint="@color/primary_yellow"
+            android:textColor="#212121"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family>
+    <!-- Montserrat Thin (100) -->
+    <font
+        fontStyle="normal"
+        fontWeight="100"
+        font="@font/montserrat_thin" />
+    <font
+        fontStyle="italic"
+        fontWeight="100"
+        font="@font/montserrat_thinitalic" />
+
+    <!-- Montserrat ExtraLight (200) -->
+    <font
+        fontStyle="normal"
+        fontWeight="200"
+        font="@font/montserrat_extralight" />
+    <font
+        fontStyle="italic"
+        fontWeight="200"
+        font="@font/montserrat_extralightitalic" />
+
+    <!-- Montserrat Light (300) -->
+    <font
+        fontStyle="normal"
+        fontWeight="300"
+        font="@font/montserrat_light" />
+    <font
+        fontStyle="italic"
+        fontWeight="300"
+        font="@font/montserrat_lightitalic" />
+
+    <!-- Montserrat Regular (400) -->
+    <font
+        fontStyle="normal"
+        fontWeight="400"
+        font="@font/montserrat_regular" />
+    <font
+        fontStyle="italic"
+        fontWeight="400"
+        font="@font/montserrat_italic" />
+
+    <!-- Montserrat Medium (500) -->
+    <font
+        fontStyle="normal"
+        fontWeight="500"
+        font="@font/montserrat_medium" />
+    <font
+        fontStyle="italic"
+        fontWeight="500"
+        font="@font/montserrat_mediumitalic" />
+
+    <!-- Montserrat SemiBold (600) -->
+    <font
+        fontStyle="normal"
+        fontWeight="600"
+        font="@font/montserrat_semibold" />
+    <font
+        fontStyle="italic"
+        fontWeight="600"
+        font="@font/montserrat_semibolditalic" />
+
+    <!-- Montserrat Bold (700) -->
+    <font
+        fontStyle="normal"
+        fontWeight="700"
+        font="@font/montserrat_bold" />
+    <font
+        fontStyle="italic"
+        fontWeight="700"
+        font="@font/montserrat_bolditalic" />
+
+    <!-- Montserrat ExtraBold (800) -->
+    <font
+        fontStyle="normal"
+        fontWeight="800"
+        font="@font/montserrat_extrabold" />
+    <font
+        fontStyle="italic"
+        fontWeight="800"
+        font="@font/montserrat_extrabolditalic" />
+
+    <!-- Montserrat Black (900) -->
+    <font
+        fontStyle="normal"
+        fontWeight="900"
+        font="@font/montserrat_black" />
+    <font
+        fontStyle="italic"
+        fontWeight="900"
+        font="@font/montserrat_blackitalic" />
+</font-family>

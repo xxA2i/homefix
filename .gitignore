@@ -1,0 +1,26 @@
+# Android/IntelliJ project files
+.gradle/
+.idea/
+local.properties
+*.iml
+
+# Build output
+build/
+app/build/
+
+# NDK artifacts
+.cxx/
+
+# Distribution artifacts
+*.apk
+*.ap_
+*.aab
+
+# Captures
+captures/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db

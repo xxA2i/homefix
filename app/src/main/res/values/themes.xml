@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Homefix" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основной шрифт для текста -->
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <!-- Шрифт для заголовков -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Homefix.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Homefix.Headline2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Homefix.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Homefix.Body2</item>
+        <!-- Цвета -->
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorPrimaryVariant">#1976D2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFEB3B</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Homefix" parent="Base.Theme.Homefix" />
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/primary_yellow</item>
+        <item name="android:secondaryProgressTint">@color/black</item>
+    </style>
+</resources>
